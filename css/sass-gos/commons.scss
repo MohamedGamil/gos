@@ -1,5 +1,29 @@
 
 // /*
+//  * Image Path
+//  * a Function That Returns Image Path
+//  *
+//  * @Example	image( 'shared/file.png' );
+//  */
+@function image( $path ) {
+	@return $imgs + $path;
+}
+
+
+
+// /*
+//  * PX to EM
+//  * Convert PX to EM
+//  *
+//  * @Example	em( 14px );
+//  */
+@function em( $px, $base: 16px ) {
+    @return ($px / $base) * 1em;
+}
+
+
+
+// /*
 //  * To String
 //  * a Function that Converts a Non-String to a String
 //  *
@@ -7,6 +31,68 @@
 //  */
 @function to-string( $nstring ) {
 	@return quote( $nstring + '' );
+}
+
+
+
+// /*
+//  * Tab Size
+//  *
+//  * @Example	@include tab-size( 3 );
+//  */
+@mixin tab-size( $value: 4 ) {
+	tab-size: $value;
+	-moz-tab-size: $value;
+	-o-tab-size: $value;
+}
+
+
+
+// /*
+//  * Text Overflow Hidden
+//  *
+//  * @Example	@include text-overflow-hidden;
+//  */
+@mixin text-overflow-hidden() {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+
+
+// /*
+//  * Block Level
+//  *
+//  * @Example	@include block-level;
+//  */
+@mixin block-level() {
+	display: block;
+	width: 100%;
+	min-height: 20px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+
+// /*
+//  * Animations Keyframes
+//  *
+//  * @Example:
+//  * @include keyframes( textglow ) {
+//  *   from { text-shadow: 0 0 9px red; color: red;}
+//  *   to { text-shadow: 0 0 19px pink; color: pink;}
+//  * }
+//  */
+@mixin keyframes( $name ) {
+	@-moz-keyframes #{$name} { @content; }
+	@-webkit-keyframes #{$name} { @content; }
+	@-o-keyframes #{$name} { @content; }
+	@-ms-keyframes #{$name} { @content; }
+	@-khtml-keyframes #{$name} { @content; }
+	@keyframes #{$name} { @content; }
 }
 
 
@@ -30,10 +116,10 @@
 //  *
 //  * @Example	@include box-shadow( 0 1px 3px #DDD );
 //  */
-@mixin box-shadow( $arg ) {
-	-webkit-box-shadow: $arg;
-		-moz-box-shadow: $arg;
-			box-shadow: $arg;
+@mixin box-shadow( $arg... ) {
+	-webkit-box-shadow: $arg...;
+		-moz-box-shadow: $arg...;
+			box-shadow: $arg...;
 }
 
 
