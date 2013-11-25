@@ -117,9 +117,9 @@
 //  * @Example	@include box-shadow( 0 1px 3px #DDD );
 //  */
 @mixin box-shadow( $arg... ) {
-	-webkit-box-shadow: $arg...;
-		-moz-box-shadow: $arg...;
-			box-shadow: $arg...;
+	-webkit-box-shadow: $arg;
+		-moz-box-shadow: $arg;
+			box-shadow: $arg;
 }
 
 
