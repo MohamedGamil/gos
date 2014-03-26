@@ -1,8 +1,13 @@
 /*
  * Site Styling Sheet.
+ * 
+ * @author		[Your Name Here..]
+ * 
  * - - - - - - - - - - - - - - - - - - - - - - - - - - -
+ * 
+ * Built using GOS (Gems/Sass) - gos.gemy.me
+ * 
  * @author		Gemy.me, <www.gemy.me>.
- * @copyright	Gemy.me 2013 All Rights Reserved.
  * @license		MIT
  */
 ::-moz-selection {
@@ -1372,7 +1377,6 @@ body.theme-rtl a.btn.icn:before {
 @-ms-viewport {
   width: device-width;
 }
-
 .visible-phone {
   display: none !important;
 }
@@ -1996,35 +2000,30 @@ body.theme-rtl a.btn.icn:before {
   font-weight: 300;
   src: local("Open Sans Light"), local("OpenSans-Light"), url(fonts/opensans/DXI1ORHCpsQm3Vp6mXoaTXhCUOGz7vYGh680lGh-uXM.woff) format("woff");
 }
-
 @font-face {
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 400;
   src: local("Open Sans"), local("OpenSans"), url(fonts/opensans/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff) format("woff");
 }
-
 @font-face {
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 600;
   src: local("Open Sans Semibold"), local("OpenSans-Semibold"), url(fonts/opensans/MTP_ySUJH_bn48VBG8sNSnhCUOGz7vYGh680lGh-uXM.woff) format("woff");
 }
-
 @font-face {
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 700;
   src: local("Open Sans Bold"), local("OpenSans-Bold"), url(fonts/opensans/k3k702ZOKiLJc3WVjuplzHhCUOGz7vYGh680lGh-uXM.woff) format("woff");
 }
-
 @font-face {
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 800;
   src: local("Open Sans Extrabold"), local("OpenSans-Extrabold"), url(fonts/opensans/EInbV5DfGHOiMmvb1Xr-hnhCUOGz7vYGh680lGh-uXM.woff) format("woff");
 }
-
 /*
 @font-face {
 	font-family: 'Open Sans';
@@ -2067,35 +2066,30 @@ body.theme-rtl a.btn.icn:before {
   font-weight: 100;
   src: local("Lato Hairline"), local("Lato-Hairline"), url(fonts/lato/boeCNmOCCh-EWFLSfVffDg.woff) format("woff");
 }
-
 @font-face {
   font-family: 'Lato';
   font-style: normal;
   font-weight: 300;
   src: local("Lato Light"), local("Lato-Light"), url(fonts/lato/KT3KS9Aol4WfR6Vas8kNcg.woff) format("woff");
 }
-
 @font-face {
   font-family: 'Lato';
   font-style: normal;
   font-weight: 400;
   src: local("Lato Regular"), local("Lato-Regular"), url(fonts/lato/9k-RPmcnxYEPm8CNFsH2gg.woff) format("woff");
 }
-
 @font-face {
   font-family: 'Lato';
   font-style: normal;
   font-weight: 700;
   src: local("Lato Bold"), local("Lato-Bold"), url(fonts/lato/wkfQbvfT_02e2IWO3yYueQ.woff) format("woff");
 }
-
 @font-face {
   font-family: 'Lato';
   font-style: normal;
   font-weight: 900;
   src: local("Lato Black"), local("Lato-Black"), url(fonts/lato/BVtM30trf7q_jfqYeHfjtA.woff) format("woff");
 }
-
 /*
 @font-face {
 	font-family: 'Lato';

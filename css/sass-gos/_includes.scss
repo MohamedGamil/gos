@@ -1,16 +1,16 @@
 // ==========================================================================
 // SASS Libraries, Commons, and Config
 // ==========================================================================
-@import 'bourbon/bourbon';
+@import 'bourbon/_bourbon';
 
-@import 'commons';
-@import 'gos-styling/base-styling';
-@import 'gos-styling/pre-styling';
+@import '_commons';
+@import 'gos-styling/_base-styling';
+@import 'gos-styling/_pre-styling';
 
-@import 'gos-grid/grid';
-@import 'gos-grid/grid-responsive';
-@import 'gos-grid/grid-rtl';
-@import 'gos-grid/grid-responsive-rtl';
+@import 'gos-grid/_grid';
+@import 'gos-grid/_grid-responsive';
+@import 'gos-grid/_grid-rtl';
+@import 'gos-grid/_grid-responsive-rtl';
 
 
 // /*

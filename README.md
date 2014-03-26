@@ -35,11 +35,13 @@ Download the stable release, or clone this repository:
 * Licensed under the **MIT License**.
 
 
-## Developement TODOs
-* Rely on Google Fonts Instead of bundled ones.
-* Demo 1 — _Simple Login Page_.
-* Demo 2 — _Simple Two Columns Page_.
-* Demo 3 — _Web Elements UI_.
+## Getting Started
+* The best way to use GOS, is to use <a href="http://alphapixels.com/prepros/" target="_blank">PrePros</a> to compile your source code.
+* After installing PrePros, Drag and Drop your cloned repository to PrePros Application.
+* Make sure to uncheck "**Full Compass Support**" for "**css/main.scss**".
+* Open "**index.haml**", "**css/main.scss**", and all files in "**css/sass-user/**".
+* Type your name, and copyrights at the top of "**css/main.scss**", and you're ready to go..
 
 
+<br><br>
 _**Development Extras, like Demos or Documentation are licensed under MIT License too. Feel free to use anything however you like.**_

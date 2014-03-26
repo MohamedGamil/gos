@@ -62,6 +62,19 @@
 
 
 // /*
+//  * Box Sizing - Border Box
+//  *
+//  * @Example	@include border-box;
+//  */
+@mixin border-box() {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+
+// /*
 //  * Block Level
 //  *
 //  * @Example	@include block-level;
@@ -69,7 +82,6 @@
 @mixin block-level() {
 	display: block;
 	width: 100%;
-	min-height: 20px;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;

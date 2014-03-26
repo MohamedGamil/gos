@@ -1,8 +1,13 @@
 /*
  * Site Styling Sheet.
+ * 
+ * @author		[Your Name Here..]
+ * 
  * - - - - - - - - - - - - - - - - - - - - - - - - - - -
+ * 
+ * Built using GOS (Gems/Sass) - gos.gemy.me
+ * 
  * @author		Gemy.me, <www.gemy.me>.
- * @copyright	Gemy.me 2013 All Rights Reserved.
  * @license		MIT
  */
 
@@ -30,19 +35,19 @@ $default-font   :   os;                             // # Default Body/HTML Tags 
 // ==========================================================================
 // Includes
 // ==========================================================================
-@import 'sass-gos/includes';
+@import 'sass-gos/_includes';
 
 
 
 // ==========================================================================
 // User Styles
 // ==========================================================================
-@import 'sass-user/font-face';
-@import 'sass-user/base';
-@import 'sass-user/header';
-@import 'sass-user/content';
-@import 'sass-user/footer';
-@import 'sass-user/theme-colors';
-@import 'sass-user/responsive';
-@import 'sass-user/rtl-styles';
-@import 'sass-user/plugins';
+@import 'sass-user/_font-face';
+@import 'sass-user/_base';
+@import 'sass-user/_header';
+@import 'sass-user/_content';
+@import 'sass-user/_footer';
+@import 'sass-user/_theme-colors';
+@import 'sass-user/_responsive';
+@import 'sass-user/_rtl-styles';
+@import 'sass-user/_plugins';
