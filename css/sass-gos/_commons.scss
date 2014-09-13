@@ -123,7 +123,7 @@
 //  *
 //  * @Example	@include border-radius( 3px );
 //  */
-@mixin border-radius( $amount : 3px  ) {
+@mixin border-radius( $amount : 3px ) {
 	-webkit-border-radius: $amount;
 	-khtml-border-radius: $amount;
 	-moz-border-radius: $amount;
@@ -178,22 +178,26 @@
 //  *
 //  * @Example	@include placeholder( #FFF );
 //  */
-@mixin placeholder( $color : #666 ) {
+@mixin placeholder( $color: #666, $decoration: none ) {
 	
 	&::-webkit-input-placeholder {
 	   color: $color;
+	   text-decoration: $decoration;
 	}
 
 	&:-moz-placeholder { /* Firefox 18- */
-	   color: $color;  
+	   color: $color;
+	   text-decoration: $decoration;
 	}
 
 	&::-moz-placeholder {  /* Firefox 19+ */
-	   color: $color;  
+	   color: $color;
+	   text-decoration: $decoration;
 	}
 
 	&:-ms-input-placeholder {  
-	   color: $color;  
+	   color: $color;
+	   text-decoration: $decoration;
 	}
 }
 
@@ -464,7 +468,7 @@
 //  *
 //  * @Param 1	Font Shorthand
 //  * @Param 2	Use The White Set ( just pass anything otherwise than "null", like "true" )
-//  * @Example	@include bootstrap-icon( 'calendar' );
+//  * @Example	@include font( os );
 //  */
 @mixin font( $font, $letters-fix : false ) {
 	
